@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Draa</title>
-        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Draa</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
 
-    <body>
-        <!-- Inicio de cabecera -->
-        <header id="header">
-            <div id="logotipo">
-                <img src="img/logo.png" alt="DRAA">
-            </div>
-        </header>
-    </body>
+  <body>
+    <!-- Inicio de cabecera -->
+    <header id="header">
+      <div id="logotipo">
+        <img src="img/logo.png" alt="DRAA" />
+      </div>
+    </header>
+    <!-- Fin de cabecera -->
+
+    <!-- Inicio Menú de navegación -->
+    <nav id="nav">
+      <ul>
+        <li><a href="http://google.com" target="_blank">Inicio</a></li>
+        <li><a href="http://google.com" target="_blank">Restaurants</a></li>
+        <li>
+          <a href="http://google.com" target="_blank">
+            Despegable
+          </a>
+          <ul>
+            <li><a href="#"> Despegable 1</a></li>
+            <li><a href="#">Despegable 2</a></li>
+            <li><a href="#">Despegable 3</a></li>
+          </ul>
+        </li>
+        <li><a href="http://google.com" target="_blank">Quiénes somos</a></li>
+        <li>
+          <a href="http://google.com" target="_blank">Cont&aacute;ctanos</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Fin Menú de navegación -->
+
+    <!-- Inicio contenido central -->
+    <div id="content">
+      <!-- Inicio barra lateral -->
+      <aside id="aside">
+        <div class="widget" id="login">
+          <h3>Entrar a la web</h3>
+
+          <form action="">
+            <label>Usuario</label>
+            <input type="text" />
+
+            <label>Contraseña</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+
+          <a href="#">Zona 1</a>
+          <a href="#">Zona 2</a>
+          <a href="#">Zona 3</a>
+        </div>
+
+        <div class="widget">
+          <h3>Entrar a la web 2</h3>
+
+          <form action="">
+            <label>Nombre de usuario</label>
+            <input type="text" />
+
+            <label>Contraseña</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <div class="widget">
+          <h3>Enlaces de interes</h3>
+
+          <ul>
+            <li><a href="#">Test1</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Test2</a></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- Fin barra lateral -->
+    </div>
+    <!-- Fin contenido central -->
+  </body>
 </html>
